@@ -201,10 +201,4 @@ li .remove:hover {
     padding: 10px 15px;
     font-size: 12px;
   }
-
-  /* Adjust the watermark position on mobile */
-  .watermark {
-    bottom: 20px;
-    right: 20px;
-  }
 }
