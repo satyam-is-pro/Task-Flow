@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Task Flow</h1>
+            <div id="date"></div>
+        </div>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Add a new task..." required>
+            <button type="submit">Add</button>
+        </form>
+        <ul id="todo-list"></ul>
+        <div class="footer">
+            <button id="show-all" class="filter-btn">Total Tasks: <span id="total-count">0</span></button>
+            <button id="show-completed" class="filter-btn">Completed: <span id="completed-count">0</span></button>
+            <button id="show-remaining" class="filter-btn">Remaining: <span id="remaining-count">0</span></button>
+        </div>
+    </div>
+    <img src="image.png" alt="Watermark" class="watermark">
+    <script src="script.js"></script>
+
+
+</body>
+</html>
