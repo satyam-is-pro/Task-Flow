@@ -167,3 +167,44 @@ li .remove:hover {
     width: 150px;
     height: auto;
   }
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+  /* Make the container full-width on mobile */
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Adjust the font sizes for mobile */
+  h1 {
+    font-size: 18px;
+  }
+
+  #date {
+    font-size: 14px;
+  }
+
+  /* Make the todo list items more compact on mobile */
+  li {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust the button sizes for mobile */
+  button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  /* Make the filter buttons more compact on mobile */
+  .filter-btn {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+
+  /* Adjust the watermark position on mobile */
+  .watermark {
+    bottom: 20px;
+    right: 20px;
+  }
+}
